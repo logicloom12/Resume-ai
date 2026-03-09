@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables / secrets
+.env
+config.py.local
+*.secret
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads & videos
+hiring_platform/uploads/
+hiring_platform/videos/
+hiring_platform/static/uploads/
+hiring_platform/static/videos/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
